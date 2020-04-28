@@ -1,0 +1,10 @@
+.card-img-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.btn {
+    font-size: 0.75em;
+    width: 45%;
+    margin-left: 2px;
+}

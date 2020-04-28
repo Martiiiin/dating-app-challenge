@@ -1,0 +1,7 @@
+<div class="row">
+    <div *ngFor="let photo of photosForModeration" class="col-lg-2 col-md-3 col-sm-6">
+        <app-photo-card [photoForModeration]="photo"
+            (reject)="rejectPhoto($event)"
+            (accept)="acceptPhoto($event)"></app-photo-card>
+    </div>
+</div>

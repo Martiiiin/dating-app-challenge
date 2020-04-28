@@ -1,0 +1,11 @@
+<div class="card mb-4">
+    <h5 class="card-header">{{ photoForModeration.user.userName }}</h5>
+    <div class="card-img-wrapper">
+        <img src="{{ photoForModeration.url }}" 
+            alt="{{ photoForModeration.user.userName }}" class="card-img-top">
+    </div>
+    <div class="card-body p-1">
+        <button class="btn btn-success" (click)="acceptPhoto()">Accept</button>
+        <button class="btn btn-danger"(click)="rejectPhoto()">Reject</button>
+    </div>
+</div>

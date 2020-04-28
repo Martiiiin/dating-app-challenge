@@ -1,0 +1,30 @@
+.img-container {
+    position: relative;
+}
+
+.img-text-container {
+    position: absolute;
+    bottom: 25px;
+    left: 10px;
+    color: red;
+    font-weight: bolder;
+}
+
+img.img-thumbnail {
+    height: 100px;
+    width: 100%;
+    min-width: 100px !important;
+    margin-bottom: 2px;
+}
+
+img.img-not-validated {
+    opacity: 25%;
+}
+
+.nv-file-over {
+    border: dotted 3px red;
+}
+
+input[type=file] {
+    color: transparent;
+}
